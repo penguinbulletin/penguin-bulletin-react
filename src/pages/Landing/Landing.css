@@ -1,0 +1,23 @@
+.landing {
+  color: white;
+}
+
+.landing-body {
+  max-width: 100svw;
+  max-height: 100svh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.empty {
+  padding: 100svh;
+}
+
+.top-right {
+  right: 0;
+  position: absolute;
+  padding: 2svh 0 1svh 2svw;
+}
+

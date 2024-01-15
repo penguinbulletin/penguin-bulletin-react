@@ -1,0 +1,28 @@
+.under-construction {
+  max-width: 100svw;
+  max-height: 100svh;
+  font-size: 1.5vmin;
+
+  padding: 12vh 0 0 4vw;
+  box-sizing: border-box;
+
+}
+
+.landing-free-text {
+  padding: 0 2svw 0 2svw;
+  color: white;
+}
+
+.under-construction-border-skin-line {
+  border-color: rgb(232, 178, 0);
+  margin: 1px 4svw 0 2svw;
+}
+
+.big-single-image {
+  max-width: 70svw;
+  max-height: 80svh;
+  width: inherit;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.social-bar {
+    padding-top: 0.5vh;
+    display: flex;
+    /* flex-direction: row-reverse;  */
+    padding-left: 2vw;
+}
+
+.social-icon {
+    max-width: 1.8vw;
+    max-height: 3vh;
+}

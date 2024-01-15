@@ -1,0 +1,43 @@
+.header {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7svw;
+    left: 0;
+    position: absolute;
+    padding: 4svh 0 0 2svw;
+    color: white;
+    z-index: 10;
+
+}
+
+.header-black {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7svw;
+    left: 0;
+    position: absolute;
+    padding: 4svh 0 0 2svw;
+    color: rgb(50, 80, 120);
+    z-index: 11;
+
+    white-space: nowrap;
+    max-width: 0svw;
+    overflow: hidden;
+    transition: all 0.55s linear;
+}
+
+.header-black.visible{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7svw;
+    left: 0;
+    position: absolute;
+    padding: 4svh 0 0 2svw;
+    color: rgb(50, 80, 120);
+    z-index: 11;
+
+    white-space: nowrap;
+    max-width: 20svw;
+    overflow: hidden;
+    transition: all 1s ease-in;
+}

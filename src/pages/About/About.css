@@ -1,0 +1,25 @@
+.about {
+  max-width: 100svw;
+  max-height: 100svh;
+  font-size: 1.5vmin;
+
+  padding: 12vh 0 0 4svw;
+
+}
+
+.landing-free-text {
+  padding: 0 2svw 0 2svw;
+  color: white;
+}
+
+.about-border-skin-line {
+  border-color: rgb(232, 178, 0);
+  margin: -3px 4svw 0 2svw;
+}
+
+.title {
+  padding:  0 0 0 2svw;
+  font-size: 1.7svw;
+  color: white;
+  font-weight: 500;
+}
