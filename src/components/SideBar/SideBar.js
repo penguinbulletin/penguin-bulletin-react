@@ -39,7 +39,7 @@ function SideBar() {
             <div className={bookmarkOpen ? "side-bar expanded" : "side-bar"}>
                 <div className="header-whitespace"></div>
                 <div className="side-bar-item">
-                    <Link to={'ai-asset-requests'} onClick={onClickBookmark} className="side-bar-item text">AI ASSET REQUESTS</Link>
+                    <Link to="https://www.fiverr.com/penguin_reno/create-ai-artwork-in-any-style-character-or-setting-with-your-feedback" target="_blank" onClick={onClickBookmark} className="side-bar-item text">AI IMAGE REQUESTS</Link>
                     {/* <img src={require('./images/under-construction.jpg')}></img> */}
                 </div>
                 <div><hr aria-hidden="true" className="border-skin-line"></hr></div>

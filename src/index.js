@@ -15,7 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<SideBar />}>
           <Route index element={<Landing />} />
-          <Route path="ai-asset-requests" element={<UnderConstruction />} />
+          {/* <Route path="ai-asset-requests" element={<UnderConstruction />} /> */}
           <Route path="sticker-generator" element={<UnderConstruction />} />
           <Route path="text-based-game" element={<UnderConstruction />} />
           <Route path="about" element={<About />} />
