@@ -5,23 +5,30 @@ import { Link } from 'react-router-dom';
 
 function Header({ shouldTransition, updateParentBookmark }) {
 
-  function onClickHeader(){
+  function onClickHeader() {
     updateParentBookmark(false);
   }
+
+  let isLandscape = window.innerHeight < window.innerWidth;
 
 
   return (
     <>
-      {/* <div
-        className={shouldTransition ? "header-black visible" : "header-black"}
-      >
-        PENGUIN BULLETIN
-      </div>
-      <div className="header">
-        PENGUIN BULLETIN
-      </div>  */}
-      <Link to={''} onClick={onClickHeader} className={shouldTransition ? "header-black visible" : "header-black"}>PENGUIN BULLETIN</Link>
-      <Link to={''} onClick={onClickHeader} className="header">PENGUIN BULLETIN</Link>
+      {
+        isLandscape ?
+          <div>
+            <Link to={''} onClick={onClickHeader} className={shouldTransition ? "header-black visible" : "header-black"}>PENGUIN BULLETIN</Link>
+            <Link to={''} onClick={onClickHeader} className="header">PENGUIN BULLETIN</Link>
+          </div>
+          :
+          <div>
+            <Link to={''} onClick={onClickHeader} className={shouldTransition ? "header-black visible" : "header-black"}>PENGUIN</Link>
+            <Link to={''} onClick={onClickHeader} className="header">PENGUIN</Link>
+            <Link to={''} onClick={onClickHeader} className={shouldTransition ? "header-black visible lower" : "header-black lower"}>BULLETIN</Link>
+            <Link to={''} onClick={onClickHeader} className="header lower">BULLETIN</Link>
+          </div>
+      }
+
 
 
     </>

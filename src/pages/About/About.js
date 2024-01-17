@@ -18,23 +18,14 @@ function About() {
         <div className='landing-free-text'>
           <br></br>
           <br></br>
-          Information regarding this website, it's author and such can be found by asking little Mayo here.
+          Hey peeps, Penguin Reno here. This is the Penguin Bulletin where I'll be showcasing some AI work and side projects of mine. 
+          If there's anything that you want to talk about, I'm free to chat on Discord or you can find my stuff on the socials below.
           <br></br>
-          Try asking questions such as:
-          <ul>
-            <li>Who are you?</li>
-            <li>Who created this website?</li>
-            <li>Why was this site created?</li>
-            <li>How can I get in touch with the author?</li>
-            <li>Headpats</li>
-          </ul>
+          <br></br>
+         
           Projects that are currently in progress:
           <ul>
             <li>Chatbot - Python API, design, hooking up in React</li>
-            <li>Separate server for SD generation</li>
-            <li>Email GSuite</li>
-            <li>Fiverr site</li>
-            <li>Socials hyperlinks</li>
           </ul>
           Projects that will be targeted for the future:
           <ul>
@@ -47,7 +38,7 @@ function About() {
           <ul>
             <li>Require specific characters to be generated multiple times for assets, CGs, promos</li>
             <li>Want to emulate a specific artist's style or a mix of multiple, unlike simply using Midjourney/Dalle</li>
-            <li>Clean up and re-generation of AI image artifacts</li>
+            <li>Clean up and editing of AI image artifacts, or Photoshopping requirements</li>
             <li>Will work with you until you're satisfied</li>
           </ul>
         </div>

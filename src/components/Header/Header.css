@@ -1,7 +1,21 @@
+
+@media screen and (orientation:portrait) {
+    :root {
+        --header-font-size: 3svw;
+    }    
+}
+
+@media screen and (orientation:landscape) {
+    :root {
+        --header-font-size: 1.7svw;
+    }    
+}
+
+
 .header {
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.7svw;
+    font-size: var(--header-font-size);
     left: 0;
     position: absolute;
     padding: 4svh 0 0 2svw;
@@ -10,10 +24,14 @@
 
 }
 
+.header.lower{
+    padding: 6svh 0 0 2svw;
+}
+
 .header-black {
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.7svw;
+    font-size: var(--header-font-size);
     left: 0;
     position: absolute;
     padding: 4svh 0 0 2svw;
@@ -26,17 +44,12 @@
     transition: all 0.55s linear;
 }
 
-.header-black.visible{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.7svw;
-    left: 0;
-    position: absolute;
-    padding: 4svh 0 0 2svw;
-    color: rgb(50, 80, 120);
-    z-index: 11;
+.header-black.lower{
+    padding: 6svh 0 0 2svw;
+}
 
-    white-space: nowrap;
+
+.header-black.visible{
     max-width: 20svw;
     overflow: hidden;
     transition: all 1s ease-in;
