@@ -37,7 +37,7 @@ function About() {
           Why you should choose the Bulletin:
           <ul>
             <li>Require specific characters to be generated multiple times for assets, CGs, promos</li>
-            <li>Want to emulate a specific artist's style or a mix of multiple, unlike simply using Midjourney/Dalle</li>
+            <li>Emulate a specific artist's style or a mix of multiple, unlike simply using Midjourney/Dall-E</li>
             <li>Clean up and editing of AI image artifacts, or Photoshopping requirements</li>
             <li>Will work with you until you're satisfied</li>
           </ul>

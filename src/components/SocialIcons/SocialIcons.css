@@ -8,4 +8,10 @@
 .social-icon {
     max-width: 30px;
     max-height: 3vh;
+    transition-duration: 0.5s;
+}
+
+.social-icon:hover {
+    transform: rotate(0.04turn);
+    transition-duration: 0.5s;
 }
