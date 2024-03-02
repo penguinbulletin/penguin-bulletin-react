@@ -1,0 +1,97 @@
+@media screen and (orientation:portrait) {
+    :root {
+        --loading-screen-font-size: large;
+    }    
+}
+
+@media screen and (orientation:landscape) {
+    :root {
+        --loading-screen-font-size: xx-large;
+    }    
+}
+
+.loading {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(33, 39, 55);;
+    z-index: 1000;
+    justify-content: center;
+    position: fixed;
+    
+    opacity: 0;
+    animation: fadeOpacity 5s;
+    pointer-events: none;
+
+}
+
+.loading-text{
+    z-index: 1001;
+
+    /* these are bad */
+    top: 40%; 
+    width: inherit;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    color: whitesmoke;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    font-size: var(--loading-screen-font-size);
+
+    opacity: 0;
+    animation: fadeOpacityText 5s;
+    pointer-events: none;
+
+}
+
+@keyframes fadeOpacity {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOpacity {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOpacityText {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOpacityText {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 import Landing from './pages/Landing/Landing'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -9,8 +10,10 @@ import SideBar from './components/SideBar/SideBar';
 import UnderConstruction from './pages/UnderConstruction/UnderConstruction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
+    <LoadingScreen></LoadingScreen>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SideBar />}>
