@@ -18,9 +18,9 @@ function LoadingScreen() {
                     <div className="loading">
                     </div>
                     <div className="loading-text">
-                        The bulletin board of art and projects
+                        -The bulletin board of art and projects-
                         <br></br>
-                        Welcome to the Penguin Bulletin
+                        WELCOME TO THE PENGUIN BULLETIN
                     </div>
                 </>
                 :
