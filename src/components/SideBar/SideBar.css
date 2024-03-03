@@ -35,6 +35,12 @@
     /* transition-timing-function: linear; */
 }
 
+/* .vertical-tapered-rectangle {
+    width: 200px; 
+    height: 200px; 
+    background-color: #4CAF50;
+    clip-path: ellipse(50% 100% at 0% 0%);
+  } */
 
 .side-bar {
     background-color: whitesmoke;
@@ -129,7 +135,7 @@
 }
 
 .side-bar-item:hover {
-    background-color: rgb(240, 242, 245);
+    background-color: rgb(232, 237, 245);
     transition: 0.2s ease-in;
     cursor: pointer;
 }
