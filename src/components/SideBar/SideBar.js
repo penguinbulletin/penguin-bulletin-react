@@ -40,22 +40,18 @@ function SideBar() {
                 <div className="header-whitespace"></div>
                 <div className="side-bar-item">
                     <Link to="https://www.fiverr.com/penguin_reno/create-ai-artwork-in-any-style-character-or-setting-with-your-feedback" target="_blank" onClick={onClickBookmark} className="side-bar-item text">AI IMAGE REQUESTS</Link>
-                    {/* <img src={require('./images/under-construction.jpg')}></img> */}
                 </div>
                 <div><hr aria-hidden="true" className="border-skin-line"></hr></div>
                 <div className="side-bar-item">
                     <Link to={'sticker-generator'} onClick={onClickBookmark} className="side-bar-item text">STICKER GENERATOR</Link>
-                    {/* <img src={require('./images/under-construction.jpg')}></img> */}
                 </div>
                 <div><hr aria-hidden="true" className="border-skin-line"></hr></div>
                 <div className="side-bar-item">
                     <Link to={'text-based-game'} onClick={onClickBookmark} className="side-bar-item text">TEXT-BASED GAME</Link>
-                    {/* <img src={require('./images/under-construction.jpg')}></img> */}
                 </div>
                 <div><hr aria-hidden="true" className="border-skin-line"></hr></div>
                 <div className="side-bar-item">
                     <Link to={'about'} onClick={onClickBookmark} className="side-bar-item text">ABOUT</Link>
-                    {/* <img src={require('./images/under-construction.jpg')}></img> */}
                 </div>
                 <div><hr aria-hidden="true" className="border-skin-line"></hr></div>
             </div>
